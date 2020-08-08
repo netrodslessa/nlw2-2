@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { Archivo_700Bold } from "@expo-google-fonts/archivo";
+
 
 const styles = StyleSheet.create({
   container: {
@@ -8,6 +8,12 @@ const styles = StyleSheet.create({
   },
 
   topBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+
+  header: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
